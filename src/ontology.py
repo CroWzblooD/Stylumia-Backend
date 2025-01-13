@@ -8,7 +8,7 @@ class FashionOntologyBuilder:
     def __init__(self):
         # Update with your Neo4j Aura credentials
         URI = "neo4j+s://010bb698.databases.neo4j.io"
-        AUTH = ("neo4j", "6a3Pv7Iu5e_nJJ1JwHVYZkAgfzUmtZEi2R45MeUlPRY")  # Your actual password
+        AUTH = ("neo4j", "neo4j password")  # Your actual password
         
         try:
             self.driver = GraphDatabase.driver(URI, auth=AUTH)
